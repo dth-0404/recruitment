@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all-hr.min.css">
+    <link rel="stylesheet" href="css/main-hr.css">
+    <link rel="stylesheet" href="css/zoom.css">
+    <link rel="stylesheet" href="css/responsive-hr.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo">
+                    <a href="">
+                        <img src="img/logo_sojilabs.png" alt="logo" title="Sojilabs">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tìm đối tác</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tuyển dụng</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="sidebar-banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="background-image: url('img/banner-01.png')">
+                    <div class="form-search-banner">
+                        <form action="">
+                            <input type="text" class="form-input-banner"
+                                placeholder="Nhập tên công việc bạn đang tìm kiếm" required autocomplete="off">
+                            <button class="button-search-banner">Tìm việc ngay</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('img/banner-02.png')">
+                    <div class="form-search-banner">
+                        <form action="">
+                            <input type="text" class="form-input-banner"
+                                placeholder="Nhập tên công việc bạn đang tìm kiếm" required autocomplete="off">
+                            <button class="button-search-banner">Tìm việc ngay</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('img/banner-03.png')">
+                    <div class="form-search-banner">
+                        <form action="">
+                            <input type="text" class="form-input-banner"
+                                placeholder="Nhập tên công việc bạn đang tìm kiếm" required autocomplete="off">
+                            <button class="button-search-banner">Tìm việc ngay</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-content">
+        <ul class="nav nav-tabs">
+            <li class="nav-item  menu-left">
+                <a class="nav-link nav-height active" data-toggle="tab" href="#menu1">
+                    <p>Cơ hội nghề nghiệp</p>
+                </a>
+            </li>
+            <li class="nav-item menu-right">
+                <a class="nav-link nav-height" data-toggle="tab" href="#menu2">
+                    <p>Môi trường Sojilabs</p>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="menu1" class="container tab-pane active job">
+                <div class="row">
+                    <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12 mt-2">
+                        <h4 class="title-job"><img src="img/rectangle.png"> Danh mục việc làm</h4>
+                        <ul class="list-group">
+                            <a href="#">
+                                <li class="fas fa-angle-right"><span>Kế toán</span></li>
+                            </a>
+                            <a href="#">
+                                <li class="fas fa-angle-right"><span>Marketing</span></li>
+                            </a>
+                            <a href="#">
+                                <li class="fas fa-angle-right"><span>Nhân viên kinh doanh</span></li>
+                            </a>
+                            <a href="#">
+                                <li class="fas fa-angle-right"><span>Hành chính văn phòng</span></li>
+                            </a>
+                            <a href="#">
+                                <li class="fas fa-angle-right"><span>Media Buyer</span></li>
+                            </a>
+                            <a href="#">
+                                <li class="fas fa-angle-right"><span>Công nghệ thông tin</span></li>
+                            </a>
+                        </ul>
+                        <h4 class="register-email"><img src="img/rectangle.png"> Đăng ký nhận tin<br> tuyển dụng qua
+                            email</h4>
+                        <div class="form-email">
+                            <form action="" method="post">
+                                <input type="email" class="form-input-email" placeholder="Nhập Email" required
+                                    autocomplete="off">
+                                <button class="button-search-email">Nhận tin</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-log-8 col-md-8 col-sm-8 col-12 mt-2">
+                        <div class="list-group-right mt-1">
+                            <a href="detail-job.html">
+                                <h5>Affiliate Manager (English)</h5>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="row m-auto job-info">
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Quốc gia: Việt Nam</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Hạn nộp hồ sơ: 30/04/2020</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <a href="detail-job.html">
+                                        <p class="see-more">Xem thêm</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-right">
+                            <a href="detail-job.html">
+                                <h5>Affiliate Manager (English)</h5>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="row m-auto job-info">
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Quốc gia: Việt Nam</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Hạn nộp hồ sơ: 30/04/2020</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <a href="detail-job.html">
+                                        <p class="see-more">Xem thêm</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-right">
+                            <a href="detail-job.html">
+                                <h5>Affiliate Manager (English)</h5>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="row m-auto job-info">
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Quốc gia: Việt Nam</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Hạn nộp hồ sơ: 30/04/2020</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <a href="detail-job.html">
+                                        <p class="see-more">Xem thêm</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-right">
+                            <a href="detail-job.html">
+                                <h5>Affiliate Manager (English)</h5>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="row m-auto job-info">
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Quốc gia: Việt Nam</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Hạn nộp hồ sơ: 30/04/2020</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <a href="detail-job.html">
+                                        <p class="see-more">Xem thêm</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-right">
+                            <a href="detail-job.html">
+                                <h5>Affiliate Manager (English)</h5>
+                            </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="row m-auto job-info">
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Quốc gia: Việt Nam</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <p>Hạn nộp hồ sơ: 30/04/2020</p>
+                                </div>
+                                <div class="col-xl-4 col-log-4 col-md-4 col-sm-4 col-12">
+                                    <a href="detail-job.html">
+                                        <p class="see-more">Xem thêm</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="list-number-blog mt-4">
+                            <li class="current"><a rel="nofollow" href="#">1</a></li>
+                            <li><a rel="nofollow" href="#">2</a></li>
+                            <li><a rel="nofollow" href="#">3</a></li>
+                            <li>…</li>
+                            <li><a rel="nofollow" href="#">7</a></li>
+                            <li class="next"><a href="#">></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="menu2" class="container tab-pane fade environment">
+                <div class="row">
+                    <div class="col-xl-6 col-log-6 col-md-6 col-sm-6 col-12 mt-2">
+                        <div class="framework-environment">
+                            <div class="title-environment">
+                                <i class="fas fa-lightbulb"></i> Thoải mái sáng tạo
+                            </div>
+                            <div class="detail-environment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-log-6 col-md-6 col-sm-6 col-12 mt-2">
+                        <div class="framework-environment">
+                            <div class="title-environment">
+                                <i class="fas fa-chart-line"></i> Cùng nhau phát triển
+                            </div>
+                            <div class="detail-environment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-log-6 col-md-6 col-sm-6 col-12 mt-2">
+                        <div class="framework-environment">
+                            <div class="title-environment">
+                                <i class="fas fa-restroom"></i> Không chỉ là văn phòng
+                            </div>
+                            <div class="detail-environment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-log-6 col-md-6 col-sm-6 col-12 mt-2">
+                        <div class="framework-environment">
+                            <div class="title-environment">
+                                <i class="fas fa-seedling"></i> Chia sẻ kinh nghiệm
+                            </div>
+                            <div class="detail-environment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="active-button-center mt-2 mb-3">
+                    <button class="button-active"><img src="img/rectangle.png"> Hoạt động của Sojilabs</button>
+                </div>
+                <div class="row">
+                    <div class="col-xl-5 col-log-5 col-md-5 col-sm-5 col-12">
+                        <div class="img-active">
+                            <img src="img/active-01.jpg" alt="Team Building" title="Team Building" data-action="zoom">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-log-7 col-md-7 col-sm-7 col-12">
+                        <div class="img-active">
+                            <img src="img/active-02.jpg" alt="Team Building" title="Team Building" data-action="zoom">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-log-7 col-md-7 col-sm-7 col-12">
+                        <div class="img-active">
+                            <img src="img/active-03.jpg" alt="Team Building" title="Team Building" data-action="zoom">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-log-5 col-md-5 col-sm-5 col-12">
+                        <div class="img-active">
+                            <img src="img/active-04.jpg" alt="Team Building" title="Team Building" data-action="zoom">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-log-5 col-md-5 col-sm-5 col-12">
+                        <div class="img-active">
+                            <img src="img/active-05.jpg" alt="Team Building" title="Team Building" data-action="zoom">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-log-7 col-md-7 col-sm-7 col-12">
+                        <div class="img-active">
+                            <img src="img/active-06.jpg" alt="Team Building" title="Team Building" data-action="zoom">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-log-7 col-md-7 col-sm-7 col-12">
+                        <div class="img-active">
+                            <img src="img/active-07.jpg" alt="Team Building" title="Team Building" data-action="zoom">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-log-5 col-md-5 col-sm-5 col-12">
+                        <div class="img-active">
+                            <img src="img/active-08.jpg" alt="Team Building" title="Team Building" data-action="zoom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a id="button_scroll_top"></a>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main-hr.js"></script>
+</body>
+
+</html>

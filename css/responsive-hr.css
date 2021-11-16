@@ -1,0 +1,184 @@
+@media(max-width:1024px)
+{
+    .navbar ul li {
+        padding: 0 10px;
+    }
+    .form-search-banner{
+        width: 45%;
+    }
+}
+@media(max-width:768px){
+    .carousel-item
+    {
+        height: 500px;
+    }
+    .form-search-banner{
+        width: 60%;
+        bottom: 30%;
+    }
+    .active-button-center button{
+        width: 45%;
+    }
+    .active-button-center button{
+        font-size: 16px;
+    }
+    .list-group-right h5{
+        font-size: 17px;
+    }
+    .job h4,.orther-job .see-more-job
+    {
+        font-size: 17px;
+    }
+    .job-info p{
+        font-size: 15px;
+    }
+    .environment .title-environment{
+        font-size: 18px;
+    }
+    .environment .detail-environment{
+        font-size: 16px;
+    }
+    .detail-job .info-job .position, .detail-job .info-job .address, .detail-job .info-job .salary
+    {
+        font-size: 16px;
+    }
+    .description .tile-description
+    {
+        font-size: 18px;
+    }
+    .share .title-share
+    {
+        font-size: 15px;
+    }
+    .social-network img
+    {
+        width: 25px;
+    }
+    .button-see-more-detail
+    {
+        width: 55%;
+    }
+
+}
+@media(max-width:576px){
+    .carousel-item
+    {
+        height: 350px;
+    }
+    .menu-left p, .menu-right p{
+        font-size: 18px;
+    }
+    .form-search-banner{
+        width: 90%;
+        bottom: 20%;
+    }
+    .button-search-banner{
+        font-size: 18px;
+    }
+    .job{
+        padding: 10px 25px;
+    }
+    .job-info
+    {
+        padding-top: 5px;
+    }
+    .job .register-email{
+        padding-top: 30px;
+    }
+    .form-input-email,.button-search-email,.active-button-center button{
+        width: 100%;
+    }
+    .see-more
+    {
+        padding-left: 0;
+    }
+    .button-see-more-detail
+    {
+        width: 45%;
+    }
+    .share .title-share
+    {
+        font-size: 14px;
+    }
+    .button-recruitment
+    {
+        font-size: 15px;
+        height: 40px;
+    }
+    .button-see-more-detail
+    {
+        border: 0.1px solid #b3b3b3;
+    }
+    .modal-header h5
+    {
+        font-size: 18px;
+    }
+    .job-other1, .job-other2, .job-other3
+    {
+        padding: 15px 0 !important;
+    }
+}
+@media(max-width:375px){
+    .form-input-banner{
+        padding: 0 5px;
+    }
+    .menu-left p, .menu-right p{
+        font-size: 18px;
+    }
+}
+@media(max-width:320px){
+    .form-search-banner{
+        width: 95%;
+    }
+    .form-search-banner{
+        right: 3%;
+    }
+    .menu-left p, .menu-right p{
+        font-size: 16px;
+    }
+    .button-search-email
+    {
+        font-size: 18px;
+    }
+    .job h4{
+        font-size: 17px;
+    }
+    .job ul li span{
+        font-size: 16px;
+    }
+    .list-group-right p{
+        max-height: 110px;
+    }
+    .detail-job .info-job .position span,
+     .detail-job .info-job .salary span
+    {
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    .detail-job .info-job .address span
+    {
+        font-size: 16px;
+        padding-left: 40px;
+    }
+    .description
+    {
+        padding: 0;
+    }
+    .description .tile-description
+    {
+        font-size: 16px;
+    }
+    .share .title-share
+    {
+        font-size: 13px;
+    }
+    .social-network img
+    {
+        width: 20px;
+    }
+    .button-recruitment
+    {
+        height: 40px;
+        font-size: 14px;
+    }
+}
